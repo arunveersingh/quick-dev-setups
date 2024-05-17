@@ -9,5 +9,5 @@ Follow these steps to set up Podman, Podman Desktop, and Podman Compose on your 
 1. Open PowerShell as an Administrator.
 2. Execute the installation script:
    ```powershell
-   .\podman\windows\install-podman-desktop.ps1
+   .\podman\windows\windows-podman-installer.ps1
    ```
