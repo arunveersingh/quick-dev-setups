@@ -1,0 +1,17 @@
+{
+  "Servers": {
+    "1": {
+      "Name": "Default PostgreSQL",
+      "Group": "Servers",
+      "Host": "postgres",
+      "Port": 5432,
+      "Username": "example_user",
+      "Password": "example_pass",
+      "MaintenanceDB": "example_db",
+      "SSLMode": "prefer",
+      "UseSSHTunnel": 0,
+      "TunnelPort": "22",
+      "TunnelAuthentication": 0
+    }
+  }
+}
