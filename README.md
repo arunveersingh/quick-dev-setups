@@ -13,7 +13,9 @@ QUICK-DEV-SETUPS [GITHUB]
 │   ├── pgadmin-servers.json
 │
 └── podman/windows
-    ├── windows-podman-installer.ps1
+|    ├── windows-podman-installer.ps1
+|
+└── docker/macOS 
 │
 └── README.md
 ```
@@ -91,7 +93,11 @@ This section provides a `docker-compose.yaml` file to set up a development envir
    podman-compose -f docker-compose.yaml down
    ```
 
+## Setup Docker and K8s for macOS
+
+This project have necessary scripts to be able to setup Docker Community Edition and K8s on MacOS
+
+1. Follow [text](docker/macOS/readme.md)
 
 ## Note: 
 Feel free to adjust the README content as per your project's specific details and requirements.
-
